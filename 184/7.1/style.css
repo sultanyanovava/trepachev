@@ -1,0 +1,26 @@
+#elem1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+#elem2 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+#content {
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid green;
+    padding: 30px;
+    text-align: justify;
+    font: 16px Arial;
+}
