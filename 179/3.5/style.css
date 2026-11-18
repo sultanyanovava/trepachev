@@ -1,0 +1,59 @@
+#parent {
+    position:relative;
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    background-color:#b8b131;
+    border-radius:50%; 
+}
+
+#eye1, #eye2 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color:white;
+    border-radius:50%; 
+    top:100px; 
+}
+
+#eye1 {
+    left:90px; 
+}
+
+#eye2 {
+    right:90px; 
+}
+
+#nose {
+    position:absolute;
+    width:60px;
+    height:60px;
+    background-color:white;
+    top:200px;
+    left:220px; 
+    border-radius:50%; 
+}
+
+#rot1 {
+position: absolute;
+top: 250px;
+left: 150px;
+
+width: 200px;
+height: 200px;
+border: 1 px solid white;
+background-color: white;
+border-radius: 100px;
+}
+
+#rot2{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+
+    width: 200px;
+    height: 200px;
+    border: #b8b131;
+    background-color: #b8b131;
+    border-radius: 100px;
+}

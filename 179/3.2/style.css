@@ -1,0 +1,23 @@
+#parent {
+    position:relative;
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    background-color: #4DEE99;
+}
+#child1 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color:white;
+    top:70px;
+    left:60px;
+}
+#child2 {
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color:white;
+    bottom:70px;
+    right:60px;
+}
