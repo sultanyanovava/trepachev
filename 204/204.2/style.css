@@ -1,0 +1,17 @@
+.parent {
+    width: 97%;
+    border: 1px solid black;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.child{
+    float: right;
+    border: 1px solid green;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+}
+.clearfix {
+    clear: both;
+}
