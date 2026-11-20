@@ -1,0 +1,33 @@
+#parent {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#parent > div {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#elem1 {
+   grid-row: 1/5;
+}
+
+#elem2 {
+    grid-row: 1/2;
+}
+
+#elem3 {
+    grid-row: 2/3;
+}
+
+#elem4 {
+    grid-row: 3/4;
+}
+
+#elem5 {
+    grid-row: 4/5;
+}
