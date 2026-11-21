@@ -1,0 +1,16 @@
+#menu {
+	display: flex;
+}
+#menu a {
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid rgb(84, 191, 84);
+	background-color: rgb(84, 191, 84)
+}
+#menu a:hover, #menu a.active {
+	color: rgb(221, 228, 221);
+	border: 1px solid rgb(8, 105, 8);
+	background-color: rgb(8, 105, 8);
+}
