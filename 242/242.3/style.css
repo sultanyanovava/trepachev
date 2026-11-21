@@ -1,0 +1,31 @@
+#content1, #content2, #content3 {
+    width: 800px;
+    margin: 20 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 20px auto;
+
+}
+
+h1 {
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.text-link {
+    display: block;
+    text-align: right;
+    color: blue;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
