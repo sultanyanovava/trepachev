@@ -1,0 +1,17 @@
+.elem {
+    white-space: pre;
+    border: 1px solid red;
+    width: 400px; 
+}
+
+.elem2 {
+    white-space: pre-wrap;
+    border: 1px solid green;
+    width: 400px; 
+}
+
+.elem3 {
+    white-space: pre-line;
+    border: 1px solid blue;
+    width: 400px; 
+}
