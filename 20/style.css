@@ -1,0 +1,18 @@
+#t1 {
+    border-spacing: 7px;
+    border: 1px solid black;
+}
+#t2 {
+    border-spacing: 15px;
+    border: 1px solid black;
+}
+#t3  {
+    border-spacing: 7px 15px;
+    border: 1px solid black;
+}
+td {
+    padding: 8px;
+    color: white;
+    background-color: rgb(2, 165, 116);
+    border: 1px solid black;
+}
