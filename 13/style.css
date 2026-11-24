@@ -1,0 +1,10 @@
+#div1 {
+    width: 80%;
+    column-width: 300px;
+}
+#div2 {
+    width: 1000px;
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: 1px dashed gray;
+}
