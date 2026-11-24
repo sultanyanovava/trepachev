@@ -1,0 +1,23 @@
+#t1 {
+	resize: horizontal;
+	width: 200px;
+	height: 100px;
+}
+
+#t2 {
+	resize: vertical;
+	width: 200px;
+	height: 100px;
+}
+
+#t3 {
+    resize: none;
+	width: 200px;
+	height: 100px;
+}
+
+#t4 {
+	resize: both;
+	width: 200px;
+	height: 100px;
+}
