@@ -1,0 +1,7 @@
+#div1 {
+    counter-reset: test;
+}
+#div1 h1::before {
+	counter-increment: test;
+	content: counter(test);
+}
