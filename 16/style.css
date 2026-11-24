@@ -1,0 +1,6 @@
+.wrapper {
+    cursor: not-allowed;
+}
+a {
+    pointer-events: none;
+}
