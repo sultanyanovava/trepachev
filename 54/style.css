@@ -14,3 +14,24 @@
 	font-weight: bold;
 	color: rgba(255, 0, 0, 0.5);
 }
+
+#parent1 {
+    background-image: url("i.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	padding: 30px;
+}
+
+#elem1 {
+	width: 300px;
+	height: 200px;
+	border: 20px solid rgba(0, 0, 255, 0.5);
+	padding: 10px;
+	font-size: 50px;
+	font-weight: bold;
+	color: red;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+
