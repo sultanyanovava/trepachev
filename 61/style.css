@@ -1,0 +1,6 @@
+#elem {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background: repeating-radial-gradient(circle at center, black 0px, black 5px, white 5px, white 8px);
+}
