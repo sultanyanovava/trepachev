@@ -1,0 +1,54 @@
+#elem {
+	background: radial-gradient(circle, rgb(180, 195, 227), blue);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem1 {
+	background: radial-gradient(at top, rgb(180, 195, 227), blue);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem2 {
+	background: radial-gradient(at center, rgb(180, 195, 227), blue);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem3 {
+	background: radial-gradient(circle at 100px 90px, rgb(180, 195, 227), blue);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}   
+
+#elem4 {
+	background: radial-gradient(rgb(180, 195, 227), blue 170px);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}   
+#elem5 {
+	background: radial-gradient(at 30px 40px, rgb(180, 195, 227),  blue 50px);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}   
+
+#elem6 {
+	background: radial-gradient(black 10px, white 30px, white 40px, green 60px);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem7 {
+    background: radial-gradient(green 25px, white 25px, white 40px, green 40px);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
