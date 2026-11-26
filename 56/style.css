@@ -1,0 +1,39 @@
+#elem {
+	text-shadow: 10px 5px 3px red;
+}
+
+#elem1 {
+    text-shadow: -10px -5px 0 green;
+}
+#elem2 {
+    text-shadow: 15px -10px 0 green;
+}
+
+#elem3 {
+    text-shadow: 0 0 5px green;
+}
+
+#elem4 {
+    text-shadow: 0 -5px 3px red, 0 5px 3px green;
+}
+
+#elem5 {
+    text-shadow: 3px 3px 5px;
+}
+
+#elem6 {
+    text-shadow: 0px 0px 5px black;
+}
+
+#elem7 {
+    text-shadow: 0px 0px 5px red;
+}
+
+#elem8 {
+    text-shadow: -10px -10px 3px blue, 15px 10px 3px red;
+}
+
+#elem9 {
+    text-shadow: -10px -10px 0 black, 15px 10px 0 blue;
+    color: red;
+}
