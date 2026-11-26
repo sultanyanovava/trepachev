@@ -1,0 +1,88 @@
+#elem {
+	box-shadow: 20px 15px 5px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem1 {
+	box-shadow: 20px -15px 0 green;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem2{
+	box-shadow: inset 0 0 5px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem3 {
+	box-shadow: inset 4px 3px 3px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem4 {
+	box-shadow: 0 15px 5px green, 0 -15px 5px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem5 {
+	box-shadow: 0 -30px 0 red, 30px 0 0 red, 0 30px 0 red, -30px 0 0 red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem6 {
+	box-shadow: 20px 20px 0 black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem7 {
+	box-shadow: 20px 20px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem8 {
+	box-shadow: -20px -25px 10px black, 20px 20px 10px black ;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem9 {
+	box-shadow: inset 5px 5px 10px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
+#elem9 {
+	box-shadow: inset 5px 5px 10px blue, 5px 5px 10px red;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+    margin-left: 10px;
+}
+
