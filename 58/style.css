@@ -1,0 +1,41 @@
+#elem {
+	background: linear-gradient(to bottom, yellow, white);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem1 {
+	background: linear-gradient(to right, yellow, white);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem2 {
+	background: linear-gradient(to left, yellow, white);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem3 {
+	background: linear-gradient(to top left, yellow, white);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem4 {
+	background: linear-gradient(90deg, red, blue);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
+
+#elem5 {
+	background: linear-gradient(to bottom, white 55%, red 45%);
+	width: 200px;
+	height: 200px;
+    border: 1px solid black;
+}
