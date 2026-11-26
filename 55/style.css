@@ -1,0 +1,32 @@
+#parent {
+	background-image: url("bg.avif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	padding: 30px;
+}
+#elem {
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	font-size: 50px;
+	font-weight: bold;
+	
+	border: 20px solid red;
+	background: black;
+	color: red;
+	
+	opacity: 0.7;
+}
+
+#elem1 {
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	font-size: 50px;
+	font-weight: bold;
+	
+	border: 20px solid red;
+	background: rgba(0, 0, 0, 0.4);
+	color: red;
+}
