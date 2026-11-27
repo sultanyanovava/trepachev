@@ -1,0 +1,105 @@
+#elem {
+    border: 1px solid red;
+    height: 150px;
+    width: 300px;
+    background-color: none; 
+    transition-duration: 1s;     
+    transition-property: background-color; 
+}
+
+#elem:hover {
+    background-color: red; 
+}
+
+#elem1 {
+    border: 1px solid red;
+    height: 150px;
+    width: 300px;
+    background-color: none; 
+    transition-duration: 1s;     
+    transition-property: background-color; 
+    color: red;
+}
+
+#elem1:hover {
+    background-color: red; 
+    color: white;
+}
+
+#elem2 {
+	border: 1px solid red;
+	transition-duration: 2s;
+	transition-property: width;
+	height: 100px;
+	width: 300px;
+}
+#elem2:hover {
+	width: 600px;
+}
+
+#elem3 {
+	border: 1px solid red;
+	transition-duration: 2s;
+	transition-property: width, margin-left;
+	height: 100px;
+	width: 300px;
+}
+#elem3:hover {
+	width: 600px;
+    margin-left: 30px;
+}
+
+#elem4 {
+	border: 1px solid red;
+	transition-duration: 2s;
+	transition-property: width;
+	transition-delay: 3s;
+	height: 100px;
+	width: 300px;
+}
+#elem4:hover {
+	width: 500px;
+}
+
+#elem5 {
+	border: 1px solid red;
+	transition-duration: 2s, 4s;
+	transition-property: width, height;
+	transition-delay: 0s, 3s;
+	width: 300px;
+	height: 100px;
+}
+#elem5:hover {
+	width: 600px;
+	height: 100px;
+}
+
+#elem6 {
+    width: 200px;                
+    height: 30px;
+    border: 1px solid black;    
+    color: black;              
+    outline: none;             
+    transition: 0.3s;          
+}
+
+#elem6:focus {
+    width: 350px;               
+    border-color: blue;          
+    color: blue;     
+}            
+
+#elem7 {
+    width: 350px;                
+    height: 30px;
+    border: 1px solid black;    
+    color: black;              
+    outline: none;             
+    transition: 0.3s;          
+}
+
+#elem7:focus { 
+    border-color: blue;
+    color: blue;              
+    box-shadow: 0 0 15px;
+}  
