@@ -1,0 +1,141 @@
+@keyframes name {
+from {
+    margin-left: 0;
+}
+to {
+    margin-left: 400px;
+}
+}
+#elem {
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-name: name;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes anim {
+from {
+    background-color: white;
+}
+to {
+    background-color: red;
+to {
+    background-color: white;
+}
+}
+}
+#elem1 {
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid red;
+    width: 250px;
+    height: 250px;
+}
+
+@keyframes ation {
+0% { 
+    margin-left: 0;
+    margin-top: 0;
+}
+25% {
+    margin-left: 250px;
+    margin-top: 0;
+}
+50% {
+    margin-left: 250px;
+    margin-top: 250px;
+}
+75% {
+    margin-top: 250px;
+    margin-left: 0;
+}
+100% {
+    margin-top: 0;
+    margin-left: 0;
+}
+}
+
+#elem2 {
+    animation-duration: 5s;
+    animation-name: ation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes tri {
+0% { 
+    margin-left: 0;
+    margin-top: 0;
+}
+25% {
+    margin-left: 250px;
+    margin-top: 0;
+}
+50% {
+    margin-left: 250px;
+    margin-top: 250px;
+}
+75% {
+    margin-top: 250px;
+    margin-left: 0;
+}
+100% {
+    margin-top: 0;
+    margin-left: 0;
+}
+from {
+    background-color: white;
+}
+to {
+    background-color: red;
+to {
+    background-color: white;
+}
+}
+}
+
+
+
+
+#elem3 {
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-name: tri;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes ch {
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 400px;
+    }
+}
+
+#elem4 {
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-name: ch;
+    animation-iteration-count: infinite;
+    animation-timing-function: 2s;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+}
+
+
